@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/navigation.css">
     <link rel="stylesheet" href="assets/css/top-menu.css">
+    <link rel="stylesheet" href="assets/css/contant-main.css">
+    <link rel="stylesheet" href="assets/css/cliente.css">
+    <link rel="stylesheet" href="assets/css/produtos.css">
+    <link rel="stylesheet" href="assets/css/servico.css">
 </head>
 
 <body class="d-flex" style="background-color: #eee;">
@@ -18,4 +22,10 @@
     <?php
     include("includes/top-menu.php");
     ?>
+
+
+<script src="assets/js/cliente.js"></script>
+<script src="assets/js/produtos.js"></script>
+<script src="assets/js/servicos.js"></script>
+
 
