@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/cliente.css">
     <link rel="stylesheet" href="assets/css/produtos.css">
     <link rel="stylesheet" href="assets/css/servico.css">
+    <link rel="stylesheet" href="assets/css/vendas.css">
 </head>
 
 <body class="d-flex" style="background-color: #eee;">
@@ -27,5 +28,6 @@
 <script src="assets/js/cliente.js"></script>
 <script src="assets/js/produtos.js"></script>
 <script src="assets/js/servicos.js"></script>
+<script src="assets/js/vendas.js"></script>
 
 

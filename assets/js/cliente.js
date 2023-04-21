@@ -5,7 +5,6 @@ const titleClient = document.getElementById("title-client");
 
 newClient.addEventListener('click', () => {
     formClient.style.display = 'block';
-    newClient.style.display = 'none';
     tableClient.style.display = 'none';
     titleClient.style.display = 'none';
 });

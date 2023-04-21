@@ -1,5 +1,5 @@
-<div class="servico-table p-2" id="produtoTable">
-    <button id="btn-new-servico" class="btn btn-success btn-sm my-3">Novo Produto</button>
+<div class="servico-table p-2" id="servicoTable">
+    <button id="btn-new-servico" class="btn btn-success btn-sm my-3">Novo Serviço</button>
 
     <div id="form-new-servicos">
         <form action="" class="form-boxs-servicos">
