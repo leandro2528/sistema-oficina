@@ -38,6 +38,10 @@ switch (@$_REQUEST["page"]) {
         include("lancamentos.php");
         break;
 
+        case "salvar_cliente":
+            include("salvar_cliente.php");
+            break;
+
     default:
         print "<div class='card-box'>
                     <div class='card-item'>01</div>
