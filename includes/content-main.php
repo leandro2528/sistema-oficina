@@ -5,6 +5,14 @@ switch (@$_REQUEST["page"]) {
         include("cliente.php");
         break;
 
+    case "salvar_cliente":
+        include("salvar_cliente.php");
+        break;
+
+    case "editar_cliente":
+        include("editar_cliente.php");
+        break;
+
     case "produtos":
         include("produtos.php");
         break;
@@ -37,10 +45,6 @@ switch (@$_REQUEST["page"]) {
     case "lancamentos":
         include("lancamentos.php");
         break;
-
-        case "salvar_cliente":
-            include("salvar_cliente.php");
-            break;
 
     default:
         print "<div class='card-box'>
