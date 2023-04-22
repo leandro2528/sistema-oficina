@@ -49,7 +49,7 @@
                 <div class="form-right col-6">
 
                     <div class="mt-2 box-form">
-                        <label for="">CPF:</label>
+                        <label for="">Cep:</label>
                         <input type="text" class="form-control">
                     </div>
 
