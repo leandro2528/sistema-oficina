@@ -46,4 +46,7 @@
     width: 50%;
 }
 
-/* Editar cliente */
+/* Ver cliente */
+.text-min {
+    font-size: 4px;
+}

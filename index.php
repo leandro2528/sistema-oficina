@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="assets/css/produtos.css">
     <link rel="stylesheet" href="assets/css/servico.css">
     <link rel="stylesheet" href="assets/css/vendas.css">
+    <link rel="stylesheet" href="assets/css/ver_cliente.css">
+    <link rel="stylesheet" href="assets/css/inicial.css">
 </head>
 
 <body class="d-flex" style="background-color: #eee;">

@@ -12,6 +12,10 @@ switch (@$_REQUEST["page"]) {
     case "editar_cliente":
         include("editar_cliente.php");
         break;
+    
+    case "ver_cliente":
+        include("ver_cliente.php");
+        break;
 
     case "produtos":
         include("produtos.php");
@@ -47,23 +51,6 @@ switch (@$_REQUEST["page"]) {
         break;
 
     default:
-        print "<div class='card-box'>
-                    <div class='card-item'>01</div>
-                    <div class='card-item'>02</div>
-                    <div class='card-item'>03</div>
-                    <div class='card-item'>03</div>
-                    <div class='card-item'>03</div>
-               </div>
-
-               <div class='card-box'>
-                    <div class='card-date'>Data</div>
-                    <div class='card-table'>Tabela</div>
-               </div>
-
-               <div class='card-box'>
-                    <div class='card-infor'>Informações</div>
-               </div>
-               
-               ";
+        print include("inicial.php");
         break;
 }

@@ -1,0 +1,8 @@
+.card-box {
+    cursor: pointer;
+}
+
+.card-item p {
+    font-size: 30px;
+    font-weight: bold;
+}

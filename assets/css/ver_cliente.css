@@ -1,0 +1,9 @@
+.text-small th,
+.text-small td {
+    font-size: 8px;
+}
+
+.btn-small {
+    font-size: 4px;
+    padding: 2px;
+}

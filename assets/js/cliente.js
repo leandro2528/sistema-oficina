@@ -8,3 +8,6 @@ newClient.addEventListener('click', () => {
     tableClient.style.display = 'none';
     titleClient.style.display = 'none';
 });
+
+
+
