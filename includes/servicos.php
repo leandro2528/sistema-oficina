@@ -2,7 +2,8 @@
     <button id="btn-new-servico" class="btn btn-success btn-sm my-3">Novo Serviço</button>
 
     <div id="form-new-servicos">
-        <form action="" class="form-boxs-servicos">
+        <form action="?page=salvar_servicos" method="POST" class="form-boxs-servicos">
+        <input type="hidden" name="acao" value="cadastrar">
 
         <h5>CADASTRO DE SERVIÇOS</h5>
 
@@ -12,17 +13,17 @@
 
                     <div class="mt-2 box-form">
                         <label for="">Nome:</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" name="nome">
                     </div>
 
                     <div class="mt-2 box-form">
                         <label for="">Preço:</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" name="preco">
                     </div>
 
                     <div class="mt-2 box-form">
                         <label for="">Descrição:</label>
-                        <input type="text" class="form-control">
+                        <input type="text" class="form-control" name="descricao">
                     </div>
 
                 </div>

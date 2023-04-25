@@ -20,11 +20,18 @@ switch (@$_REQUEST["page"]) {
     case "produtos":
         include("produtos.php");
         break;
+    
+    case "salvar_produtos":
+        include("salvar_produtos.php");
+        break;
 
     case "servicos":
         include("servicos.php");
         break;
 
+    case "salvar_servicos":
+        include("salvar_servicos.php");
+        break;
 
     case "vendas":
         include("vendas.php");
