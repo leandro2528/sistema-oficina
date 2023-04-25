@@ -65,16 +65,42 @@
 
     <h5 id="title-produto">Produtos</h5>
 
-    <table id="new-table-produto" class="table table-hover table-striped table-bordered">
-        <thead>
-            <tr>
-                <th>N°</th>
-                <th>Código de barro</th>
-                <th>Nome</th>
-                <th>Estoque</th>
-                <th>Preço</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-    </table>
+    <?php
+        $sql = "SELECT * FROM produtos";
+
+        $res = $conn->query($sql);
+
+        $qtd = $res->num_rows;
+
+        if($qtd > 0) {
+            print "<table class='table table-hover table-striped table-bordered' id='new-table-produto'>";
+               print "<tr>";
+                    print "<th>Id</th>";
+                    print "<th>Código de Barra</th>";
+                    print "<th>Nome</th>";
+                    print "<th>Tipo de movimento</th>";
+                    print "<th>Preço de compra</th>";
+                    print "<th>Preço de venda</th>";
+                    print "<th>Unidade</th>";
+                    print "<th>Estoque</th>";
+                    print "<th>Estoque mínimo</th>";
+               print "</tr>";
+            while($row = $res->fetch_object()) {
+                print "<tr>";
+                    print "<td>".$row->id."</td>";
+                    print "<td>".$row->codBarra."</td>";
+                    print "<td>".$row->nome."</td>";
+                    print "<td>".$row->tipMov."</td>";
+                    print "<td>".$row->precoComp."</td>";
+                    print "<td>".$row->precoVenda."</td>";
+                    print "<td>".$row->unidade."</td>";
+                    print "<td>".$row->estoque."</td>";
+                    print "<td>".$row->estoqueMinimo."</td>";
+                print "</tr>";
+            }
+            print "</table>";
+        }
+
+    ?>
+   
 </div>
