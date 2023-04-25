@@ -37,6 +37,9 @@ switch (@$_REQUEST["page"]) {
         include("vendas.php");
         break;
 
+    case "salvar_vendas":
+        include("salvar_vendas.php");
+        break;
 
     case "ordemServicos":
         include("ordemServicos.php");
